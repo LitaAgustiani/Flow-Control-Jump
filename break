@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	//Program akan berhenti jika angka yang dimasukkan lebih dari sama dengan 20
+	
+	int angka1, angka2;
+	cout << "Masukkan angka pertama ";
+	cin >> angka1;
+	cout <<"Masukkan angka terakhir ";
+	cin >> angka2;
+
+		for ( int i = angka1 ; i <= angka2 ; i++){
+			if ( i >= 20 ) break;
+			cout << i << endl;
+		}
+	return 0;
+}
