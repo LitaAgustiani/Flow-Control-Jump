@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	/* jika dimasukkan huruf x, program akan melewati angka 2
+		jika dimasukkan huruf y, program akan merunut angka 1 - 5
+	*/
+	
+	char jump = 'Z';
+	
+	cout << "Masukkan huruf x untuk melompat : " << endl;
+	cout << "Masukkan huruf y untuk tidak melompat : " << endl;
+	cin >> jump;
+	
+	cout << "1" <<endl;
+	if (jump == 'x') goto lompat;
+	cout << "2" <<endl;
+	lompat:
+	cout << "3" <<endl;
+	cout << "4" <<endl;
+	cout << "5" <<endl;
+	
+	return 0;
+}
