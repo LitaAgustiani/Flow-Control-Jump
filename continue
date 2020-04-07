@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main(){
+	// Program ini hanya akan mencetak angka genap
+	
+	int angka, angka1;
+	cout << "Masukkan angka awal " <<endl;
+	cin >> angka;
+	cout << "Masukkan angka akhir " <<endl;
+	cin >> angka1;
+	
+		for ( int i = angka ; i <= angka1 ; i++){
+			if ( i % 2 == 1) continue;
+			cout << i << endl;
+		}
+	return 0;
+}
+	
